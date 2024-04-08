@@ -58,14 +58,13 @@ A timeslot of 4 hours has been allocated to complete this workshop and leave roo
 
 This workshop is organized in sequential modules. One module will build up on top of the previous module, so please, follow the order as proposed below.
 
-Module 1 - [Getting Started](modules/module-1-getting-started.md)  
-Module 2 - [Deploy an AWS EKS cluster](modules/module-2-deploy-eks.md)  
-Module 3 - [Connect the AWS EKS cluster to Calico Cloud](modules/module-3-connect-calicocloud.md)  
-Module 4 - [Observe traffic flows in Calico Cloud](modules/module-4-observe-traffic.md)  
-Module 5 - [Secure pod traffic using Calico Policy Recommender](modules/module-5-secure-pod-traffic.md)  
-Module 6 - [Zero-trust security for pod traffic](modules/module-6-zero-trust-security.md)</br>
-Module 7 - [Use Observability to Troubleshoot Connectivity Issues](modules/module-7-troubleshooting.md)</br>
-Module 8 - [Clean up](/modules/module-8-clean-up.md)  
+Module 1 - [Connect your EKS cluster to Calico Cloud](modules/module-1-connect-calicocloud.md)  
+Module 2 - [Observe traffic flows in Calico Cloud](modules/module-2-observe-traffic.md)  
+Module 3 - [Zero-Trust Workload Access Control with Namespace Isolation Recommendation](modules/module-3-ztac-ns-isolation.md)  
+Module 4 - [Workload Isolation with Microsegmentation](modules/module-4-multi-ns-wkld-secure.md)  
+Module 5 - [Ingress and Egress access control using NetworkSets](modules/module-5-network-sets.md)  
+Module 6 - [Enabling Encryption in Transit with WireGuard](modules/module-6-encryption-in-transit.md)  
+Module 7 - [Clean up](modules/module-7-clean-up.md)  
 
 ---
 
