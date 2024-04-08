@@ -1,4 +1,4 @@
-# EKS and Calico Cloud: Hands-on workshop for the Truist Engineering Teams
+# EKS and Calico Cloud: Hands-on workshop
 
 ## Welcome
 
