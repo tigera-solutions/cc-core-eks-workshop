@@ -79,7 +79,7 @@ Which will give us the following output showing the nodes Wireguard public key
 On each node we can also view the new interface created by Wireguard:
 
 ```bash
-root@aks-nodepool1-37054976-vmss000002:/# ip a | grep wireguard
+root@ip-192-168-4-145:/# ip a | grep wireguard
 wireguard.cali: flags=209<UP,POINTOPOINT,RUNNING,NOARP>  mtu 1340
 ```
 
