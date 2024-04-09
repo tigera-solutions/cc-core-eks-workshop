@@ -57,6 +57,31 @@ Calico Security Policies provide a richer set of policy capabilities than the na
            - Click on `SAVE LABEL SELECTOR`
          - Click on the button `Save Rule`
      - Click on `Add Egress Rule`
+       - On the `Create New Policy Rule` window,
+         - Click on the `dropdown` with `Any Protocol`
+         - Change the radio button to `Protocol is` and select `TCP`
+         - In the field `To:` click on `Add Port`
+         - `Port is` 9000 - Save
+         - In the field `From:`, under `Namespace Selectors` select the `Namespaced` radio button, then `Add Label Selector`
+           - Select Key... `projectcalico.org/name`
+           - =
+           - Select Value... `client`
+           - Click on `SAVE LABEL SELECTOR`
+         - Click on the button `Save Rule`
+     - Click on `Add Egress Rule`
+       - On the `Create New Policy Rule` window,
+         - Click on the `dropdown` with `Any Protocol`
+         - Change the radio button to `Protocol is` and select `TCP`
+         - In the field `To:` click on `Add Port`
+         - `Port is` 80 - Save
+         - Click on `Add Port` again
+         - `Port is` 6379 - Save
+         - In the field `From:`, under `Namespace Selectors` select the `Namespaced` radio button, then `Add Label Selector`
+           - Select Key... `projectcalico.org/name`
+           - =
+           - Select Value... `stars`
+           - Click on `SAVE LABEL SELECTOR`
+         - Click on the button `Save Rule`
      - You are done. Click `Enforce` on the top-right of your page.
 
 2. Now, let's use the `Recommend a Policy` feature to create the policies for the other workloads.

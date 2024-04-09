@@ -37,14 +37,23 @@ We recommend creating a global default deny policy after you complete reviewing 
    - Go to the `Policies Board`
    - On the bottom of the tier box `default` click on `Add Policy`
      - In the `Create Policy` page enter the policy name: `default-deny`
-     - On the `Applies To` session, click `Add Namespace Selector`
+     - On the `Applies To` section, click `Add Namespace Selector`
        First, lets apply only to the required namespaces:
        - Select Key... `kubernetes.io/metadata.name`
        - =
        - Select Value... `catfacts`
        - OR
        - Select Key... `kubernetes.io/metadata.name`
-       - Select Value... `catfacts`
+       - =
+       - Select Value... `stars`
+       - OR
+       - Select Key... `kubernetes.io/metadata.name`
+       - =
+       - Select Value... `client`
+       - OR
+       - Select Key... `kubernetes.io/metadata.name`
+       - =
+       - Select Value... `management-ui`
      - On the field `Type` select both checkboxes: Ingress and Egress.
      - You are done. Click `Stage` on the top-right of your page.
 

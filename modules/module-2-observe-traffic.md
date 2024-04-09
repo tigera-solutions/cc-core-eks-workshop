@@ -5,7 +5,7 @@
 1. Clone this repository into the AWS Cloudshell:
 
    ```bash
-   git clone 
+   git clone https://github.com/tigera-solutions/cc-core-eks-workshop.git
    ```
 
 2. From the cloned directory, execute:
